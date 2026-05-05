@@ -332,14 +332,6 @@ export default function Home() {
                 <span>Join Discord</span>
               </button>
 
-              {/* Follow X 按鈕... */}
-              <button className="social-btn" onClick={() => window.open('https://x.com/Cheaply147988', '_blank')}>
-                <svg viewBox="0 0 24 24" width="24" height="24" className="md:w-[30px] md:h-[30px]" fill="currentColor" style={{ position: 'relative', zIndex: 1 }}>
-                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-                </svg>
-                <span>Follow X</span>
-              </button>
-
               {/* 新增：Follow Github 按鈕 */}
               <button className="social-btn" style={{ borderColor: '#ffffff' }} onClick={() => window.open('https://github.com/k30394121/Cheaply-Promotion-Frontend', '_blank')}>
                 <i className="fa-brands fa-github" style={{ color: '#ffffff' }}></i>
