@@ -312,10 +312,10 @@ export default function Home() {
                 <div className="big-button-desc">Start Your Journey</div>
               </button>
 
-              <button className="big-button" onClick={() => window.location.href = '#demo1'}>
+              <button className="big-button" onClick={() => window.location.href = 'https://demo.cheaply.click/'}>
                 <div className="big-button-icon">🚀</div>
                 <div className="big-button-title">DeFi Prototype</div>
-                <div className="big-button-desc">Building in Progress</div>
+                <div className="big-button-desc">Enter the App</div>
               </button>
 
               <button className="big-button" onClick={() => window.location.href = '/About.html'}>
