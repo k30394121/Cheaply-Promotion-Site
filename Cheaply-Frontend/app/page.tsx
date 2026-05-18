@@ -214,7 +214,7 @@ export default function Home() {
           .big-button { padding: 40px 24px; }
           .big-button-icon { font-size: 3rem; margin-bottom: 16px; }
           .big-button-title { font-size: 1.5rem; margin-bottom: 8px; }
-          .social-buttons-grid { grid-template-columns: repeat(2, 1fr); margin-bottom: 64px; }
+          .social-buttons-grid { grid-template-columns: repeat(3, 1fr); margin-bottom: 64px; }
           .social-btn { padding: 20px; font-size: 1.25rem; }
           .stats-grid { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
           .stat-card { padding: 24px; }
@@ -330,6 +330,12 @@ export default function Home() {
               <button className="social-btn" style={{ borderColor: '#5865F2' }} onClick={() => window.open('https://discord.gg/mXnTCtapGF', '_blank')}>
                 <i className="fa-brands fa-discord" style={{ color: '#5865F2' }}></i>
                 <span>Join Discord</span>
+              </button>
+
+              {}
+              <button className="social-btn" style={{ borderColor: '#000000' }} onClick={() => window.open('https://x.com/Cheaply147988', '_blank')}>
+                <i className="fa-brands fa-x-twitter" style={{ color: '#ffffff' }}></i>
+                <span>Follow X</span>
               </button>
 
               {/* 新增：Follow Github 按鈕 */}
